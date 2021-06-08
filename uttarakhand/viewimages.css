@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+.nainital h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  color: crimson;
+  text-shadow: 1px 2px 3px black;
+}
+.gallery-nanital {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-column-gap: 1px;
+  grid-gap: 1px;
+}
+.gallery-nanital img {
+  width: 100%;
+}
+.mussoorie {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  color: crimson;
+  text-shadow: 1px 2px 3px black;
+}
+.gallery-mussoorie {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-column-gap: 1px;
+  grid-gap: 1px;
+}
+.gallery-mussoorie img {
+  width: 100%;
+}
+.kedarnath {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  color: crimson;
+  text-shadow: 1px 2px 3px black;
+}
+.gallery-kedarnath {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-column-gap: 1px;
+  grid-gap: 1px;
+}
+.gallery-kedarnath img {
+  width: 100%;
+}
+.auli {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  color: crimson;
+  text-shadow: 1px 2px 3px black;
+}
+.gallery-auli {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-column-gap: 1px;
+  grid-gap: 1px;
+}
+.gallery-auli img {
+  width: 100%;
+}
+.haridwar {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  color: crimson;
+  text-shadow: 1px 2px 3px black;
+}
+.gallery-haridwar {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-column-gap: 1px;
+  grid-gap: 1px;
+}
+.gallery-haridwar img {
+  width: 100%;
+}
+.haridwar {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  color: crimson;
+  text-shadow: 1px 2px 3px black;
+}
+.gallery-haridwar {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-column-gap: 1px;
+  grid-gap: 1px;
+}
+.gallery-haridwar img {
+  width: 100%;
+}
+@media only screen and (max-width: 750px) {
+  .nanital h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: crimson;
+    text-shadow: 1px 2px 3px black;
+  }
+  .gallery-nanital {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1px;
+    grid-gap: 1px;
+  }
+  .gallery-nanital img {
+    width: 100%;
+  }
+  .mussoorie {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: crimson;
+    text-shadow: 1px 2px 3px black;
+  }
+  .gallery-mussoorie {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1px;
+    grid-gap: 1px;
+  }
+  .gallery-mussoorie img {
+    width: 100%;
+  }
+  .haridwar {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: crimson;
+    text-shadow: 1px 2px 3px black;
+  }
+  .gallery-haridwar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1px;
+    grid-gap: 1px;
+  }
+  .gallery-haridwar img {
+    width: 100%;
+  }
+  .auli {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color: crimson;
+    text-shadow: 1px 2px 3px black;
+  }
+  .gallery-auli {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1px;
+    grid-gap: 1px;
+  }
+  .gallery-auli img {
+    width: 100%;
+  }
+  .kedarnath {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: crimson;
+    text-shadow: 1px 2px 3px black;
+  }
+  .gallery-kedarnath {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1px;
+    grid-gap: 1px;
+  }
+  .gallery-kedarnath img {
+    width: 100%;
+  }
+  .Rishikesh {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: crimson;
+    text-shadow: 1px 2px 3px black;
+  }
+  .gallery-Rishikesh {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1px;
+    grid-gap: 1px;
+  }
+  .gallery-Rishikesh img {
+    width: 100%;
+  }
+}

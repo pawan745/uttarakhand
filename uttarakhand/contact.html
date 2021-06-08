@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./contactstyle.css" />
+    <title>Tourist places in Uttarakhand</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>
+        We Whould love to response to your queries and help you succeed.<br />Feel
+        Free to get in touch with us.
+      </p>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Sent Your Request</h3>
+          <form name="contact" method="POST" data-netlify="true" action="./contact.php">
+            <div class="input-row">
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Name" required />
+              </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input type="text" name="phone" placeholder="+91" required />
+              </div>
+              <div class="input-group">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="@gmail" required />
+              </div>
+              <div class="input-group">
+                <label>subject</label>
+                <input type="text" name="subject" placeholder="...." required />
+              </div>
+            </div>
+            <label>Message</label>
+            <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+            <div class="sub">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="contact-right">
+          <h3>Reach Us</h3>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>goabbisht0413@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+91 6396259222</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>
+                31 B.N P.A.C,Rudrapur <br />
+                Udham Singh Nagar (263153) <br />Uttarakhand
+              </td>
+            </tr>
+          </table>
+          <footer class="footer">
+            <div class="centerdiv">
+              <a href="https://www.facebook.com/profile.php?id=100043318279461" target="_blank">
+                <i class="fa fa-2x fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/gaurav_bisht_0413/" target="_blank">
+              <i class="fa fa-2x fa-instagram"></i>
+            </a>
+          </a>
+          <a href="https://twitter.com/GauravBisht0413" target="_blank">
+          <i class="fa fa-2x fa-twitter"></i>
+        </a>
+        <a href="https://github.com/goabbisht" target="_blank">
+          <i  class="fa fa-2x fa-github"></i>
+        </a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

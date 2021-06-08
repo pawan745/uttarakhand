@@ -1,0 +1,20 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgb(207, 201, 201)
+    ),
+    url(./images/pexels-mateusz-sałaciak-4275883\(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 2px 2px white;
+}
+p {
+  text-shadow: 1px 1px 2px white;
+}
